@@ -11,23 +11,20 @@ import GameplayKit
 
 class GameScene : SKScene{
     
-    let label1 = SKLabelNode(fontNamed: "Arial")
-    let label2 = SKLabelNode(fontNamed: "Arial")
-    
+    let label1 = SKLabelNode(fontNamed: "Gtek Technology")
+    let label2 = SKLabelNode(fontNamed: "Gtek Technology")
+    let sound = SKAction.playSoundFileNamed("Home.mp3", waitForCompletion: false)
+
     override func didMove(to view: SKView) {
         
-        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "florian.jpg")!)
+        run(sound)
         
-        let flip = arc4random_uniform(2) // 0 or 1
-        
-        print(flip)
-        
-        label1.text = "Pong"
-        label1.fontSize = 100
+        label1.text = "pong"
+        label1.fontSize = 50
         label1.position = CGPoint(x: self.size.width*0, y: self.size.height*0.3)
         
-        label2.text = "Flapira"
-        label2.fontSize = 100
+        label2.text = "flapira"
+        label2.fontSize = 50
         label2.position = CGPoint(x: self.size.width*0, y: self.size.height*0.4)
         
         self.addChild(label1)

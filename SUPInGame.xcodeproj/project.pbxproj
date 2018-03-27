@@ -12,13 +12,14 @@
 		F9A5A38B206AA48D00C8D735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38A206AA48D00C8D735 /* Images.xcassets */; };
 		F9A5A38D206AA4D200C8D735 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38C206AA4D200C8D735 /* bird.atlas */; };
 		F9A5A38F206AA64200C8D735 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38E206AA64200C8D735 /* audio.mp3 */; };
+		F9A5A391206AB32800C8D735 /* Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A390206AB32800C8D735 /* Home.mp3 */; };
+		F9A5A395206AB48500C8D735 /* Gtek.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A394206AB48500C8D735 /* Gtek.ttf */; };
 		F9BE00EE206A9E300088B25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE00ED206A9E300088B25E /* AppDelegate.swift */; };
 		F9BE00F0206A9E300088B25E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00EF206A9E300088B25E /* GameScene.sks */; };
 		F9BE00F2206A9E300088B25E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00F1206A9E300088B25E /* Actions.sks */; };
 		F9BE00F4206A9E300088B25E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE00F3206A9E300088B25E /* GameScene.swift */; };
 		F9BE00F6206A9E300088B25E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE00F5206A9E300088B25E /* GameViewController.swift */; };
 		F9BE00F9206A9E300088B25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00F7206A9E300088B25E /* Main.storyboard */; };
-		F9BE00FB206A9E300088B25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00FA206A9E300088B25E /* Assets.xcassets */; };
 		F9BE00FE206A9E300088B25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00FC206A9E300088B25E /* LaunchScreen.storyboard */; };
 		F9BE0109206A9E300088B25E /* MyGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0108206A9E300088B25E /* MyGamesTests.swift */; };
 		F9BE0114206A9E300088B25E /* MyGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0113206A9E300088B25E /* MyGamesUITests.swift */; };
@@ -49,6 +50,8 @@
 		F9A5A38A206AA48D00C8D735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9A5A38C206AA4D200C8D735 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
 		F9A5A38E206AA64200C8D735 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		F9A5A390206AB32800C8D735 /* Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Home.mp3; sourceTree = "<group>"; };
+		F9A5A394206AB48500C8D735 /* Gtek.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gtek.ttf; sourceTree = "<group>"; };
 		F9BE00EA206A9E300088B25E /* SUPInGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUPInGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE00ED206A9E300088B25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BE00EF206A9E300088B25E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -56,7 +59,6 @@
 		F9BE00F3206A9E300088B25E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F9BE00F5206A9E300088B25E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F9BE00F8206A9E300088B25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F9BE00FA206A9E300088B25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BE00FD206A9E300088B25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9BE00FF206A9E300088B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE0104206A9E300088B25E /* SUPInGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUPInGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9A5A396206ABA5F00C8D735 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F9A5A394206AB48500C8D735 /* Gtek.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F9A5A397206ABA6D00C8D735 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				F9A5A390206AB32800C8D735 /* Home.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		F9A5A398206ABA7C00C8D735 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE00EF206A9E300088B25E /* GameScene.sks */,
+				F9BE00F3206A9E300088B25E /* GameScene.swift */,
+				F9BE00F5206A9E300088B25E /* GameViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		F9BE00E1206A9E300088B25E = {
 			isa = PBXGroup;
 			children = (
@@ -117,17 +145,14 @@
 		F9BE00EC206A9E300088B25E /* MyGames */ = {
 			isa = PBXGroup;
 			children = (
-				F9A5A38C206AA4D200C8D735 /* bird.atlas */,
-				F9A5A38A206AA48D00C8D735 /* Images.xcassets */,
+				F9A5A397206ABA6D00C8D735 /* Music */,
+				F9A5A396206ABA5F00C8D735 /* Fonts */,
 				F9BE0123206A9F290088B25E /* Pong2 */,
 				F9BE0122206A9F120088B25E /* Flapira */,
-				F9BE00ED206A9E300088B25E /* AppDelegate.swift */,
-				F9BE00EF206A9E300088B25E /* GameScene.sks */,
+				F9A5A398206ABA7C00C8D735 /* Home */,
 				F9BE00F1206A9E300088B25E /* Actions.sks */,
-				F9BE00F3206A9E300088B25E /* GameScene.swift */,
-				F9BE00F5206A9E300088B25E /* GameViewController.swift */,
+				F9BE00ED206A9E300088B25E /* AppDelegate.swift */,
 				F9BE00F7206A9E300088B25E /* Main.storyboard */,
-				F9BE00FA206A9E300088B25E /* Assets.xcassets */,
 				F9BE00FC206A9E300088B25E /* LaunchScreen.storyboard */,
 				F9BE00FF206A9E300088B25E /* Info.plist */,
 			);
@@ -158,6 +183,8 @@
 				F9A5A38E206AA64200C8D735 /* audio.mp3 */,
 				F9A5A388206AA31C00C8D735 /* Flapira.swift */,
 				F9A5A386206AA2EC00C8D735 /* Flapira.sks */,
+				F9A5A38C206AA4D200C8D735 /* bird.atlas */,
+				F9A5A38A206AA48D00C8D735 /* Images.xcassets */,
 			);
 			name = Flapira;
 			sourceTree = "<group>";
@@ -281,13 +308,14 @@
 				F9A5A38D206AA4D200C8D735 /* bird.atlas in Resources */,
 				F9BE00F9206A9E300088B25E /* Main.storyboard in Resources */,
 				F9A5A38B206AA48D00C8D735 /* Images.xcassets in Resources */,
+				F9A5A395206AB48500C8D735 /* Gtek.ttf in Resources */,
 				F9A5A387206AA2EC00C8D735 /* Flapira.sks in Resources */,
 				F9BE00F0206A9E300088B25E /* GameScene.sks in Resources */,
-				F9BE00FB206A9E300088B25E /* Assets.xcassets in Resources */,
 				F9BE00FE206A9E300088B25E /* LaunchScreen.storyboard in Resources */,
 				F9BE0125206A9F840088B25E /* PongScene.sks in Resources */,
 				F9BE00F2206A9E300088B25E /* Actions.sks in Resources */,
 				F9A5A38F206AA64200C8D735 /* audio.mp3 in Resources */,
+				F9A5A391206AB32800C8D735 /* Home.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
