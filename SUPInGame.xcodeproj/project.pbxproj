@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9A5A387206AA2EC00C8D735 /* Flapira.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A386206AA2EC00C8D735 /* Flapira.sks */; };
+		F9A5A389206AA31C00C8D735 /* Flapira.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5A388206AA31C00C8D735 /* Flapira.swift */; };
+		F9A5A38B206AA48D00C8D735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38A206AA48D00C8D735 /* Images.xcassets */; };
+		F9A5A38D206AA4D200C8D735 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38C206AA4D200C8D735 /* bird.atlas */; };
+		F9A5A38F206AA64200C8D735 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38E206AA64200C8D735 /* audio.mp3 */; };
 		F9BE00EE206A9E300088B25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE00ED206A9E300088B25E /* AppDelegate.swift */; };
 		F9BE00F0206A9E300088B25E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00EF206A9E300088B25E /* GameScene.sks */; };
 		F9BE00F2206A9E300088B25E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00F1206A9E300088B25E /* Actions.sks */; };
@@ -17,6 +22,8 @@
 		F9BE00FE206A9E300088B25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00FC206A9E300088B25E /* LaunchScreen.storyboard */; };
 		F9BE0109206A9E300088B25E /* MyGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0108206A9E300088B25E /* MyGamesTests.swift */; };
 		F9BE0114206A9E300088B25E /* MyGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0113206A9E300088B25E /* MyGamesUITests.swift */; };
+		F9BE0125206A9F840088B25E /* PongScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE0124206A9F840088B25E /* PongScene.sks */; };
+		F9BE0127206A9F8A0088B25E /* PongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0126206A9F8A0088B25E /* PongScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F9BE00EA206A9E300088B25E /* MyGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A5A386206AA2EC00C8D735 /* Flapira.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flapira.sks; sourceTree = "<group>"; };
+		F9A5A388206AA31C00C8D735 /* Flapira.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flapira.swift; sourceTree = "<group>"; };
+		F9A5A38A206AA48D00C8D735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9A5A38C206AA4D200C8D735 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		F9A5A38E206AA64200C8D735 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		F9BE00EA206A9E300088B25E /* SUPInGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUPInGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE00ED206A9E300088B25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BE00EF206A9E300088B25E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		F9BE00F1206A9E300088B25E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -47,12 +59,14 @@
 		F9BE00FA206A9E300088B25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BE00FD206A9E300088B25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9BE00FF206A9E300088B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9BE0104206A9E300088B25E /* MyGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE0104206A9E300088B25E /* SUPInGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUPInGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE0108206A9E300088B25E /* MyGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGamesTests.swift; sourceTree = "<group>"; };
 		F9BE010A206A9E300088B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9BE010F206A9E300088B25E /* MyGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE010F206A9E300088B25E /* SUPInGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUPInGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE0113206A9E300088B25E /* MyGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGamesUITests.swift; sourceTree = "<group>"; };
 		F9BE0115206A9E300088B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE0124206A9F840088B25E /* PongScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PongScene.sks; sourceTree = "<group>"; };
+		F9BE0126206A9F8A0088B25E /* PongScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +107,9 @@
 		F9BE00EB206A9E300088B25E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9BE00EA206A9E300088B25E /* MyGames.app */,
-				F9BE0104206A9E300088B25E /* MyGamesTests.xctest */,
-				F9BE010F206A9E300088B25E /* MyGamesUITests.xctest */,
+				F9BE00EA206A9E300088B25E /* SUPInGame.app */,
+				F9BE0104206A9E300088B25E /* SUPInGameTests.xctest */,
+				F9BE010F206A9E300088B25E /* SUPInGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +117,10 @@
 		F9BE00EC206A9E300088B25E /* MyGames */ = {
 			isa = PBXGroup;
 			children = (
+				F9A5A38C206AA4D200C8D735 /* bird.atlas */,
+				F9A5A38A206AA48D00C8D735 /* Images.xcassets */,
+				F9BE0123206A9F290088B25E /* Pong2 */,
+				F9BE0122206A9F120088B25E /* Flapira */,
 				F9BE00ED206A9E300088B25E /* AppDelegate.swift */,
 				F9BE00EF206A9E300088B25E /* GameScene.sks */,
 				F9BE00F1206A9E300088B25E /* Actions.sks */,
@@ -134,12 +152,31 @@
 			path = MyGamesUITests;
 			sourceTree = "<group>";
 		};
+		F9BE0122206A9F120088B25E /* Flapira */ = {
+			isa = PBXGroup;
+			children = (
+				F9A5A38E206AA64200C8D735 /* audio.mp3 */,
+				F9A5A388206AA31C00C8D735 /* Flapira.swift */,
+				F9A5A386206AA2EC00C8D735 /* Flapira.sks */,
+			);
+			name = Flapira;
+			sourceTree = "<group>";
+		};
+		F9BE0123206A9F290088B25E /* Pong2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE0126206A9F8A0088B25E /* PongScene.swift */,
+				F9BE0124206A9F840088B25E /* PongScene.sks */,
+			);
+			name = Pong2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9BE00E9206A9E300088B25E /* MyGames */ = {
+		F9BE00E9206A9E300088B25E /* SUPInGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE0118206A9E300088B25E /* Build configuration list for PBXNativeTarget "MyGames" */;
+			buildConfigurationList = F9BE0118206A9E300088B25E /* Build configuration list for PBXNativeTarget "SUPInGame" */;
 			buildPhases = (
 				F9BE00E6206A9E300088B25E /* Sources */,
 				F9BE00E7206A9E300088B25E /* Frameworks */,
@@ -149,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = MyGames;
+			name = SUPInGame;
 			productName = MyGames;
-			productReference = F9BE00EA206A9E300088B25E /* MyGames.app */;
+			productReference = F9BE00EA206A9E300088B25E /* SUPInGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE0103206A9E300088B25E /* MyGamesTests */ = {
+		F9BE0103206A9E300088B25E /* SUPInGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE011B206A9E300088B25E /* Build configuration list for PBXNativeTarget "MyGamesTests" */;
+			buildConfigurationList = F9BE011B206A9E300088B25E /* Build configuration list for PBXNativeTarget "SUPInGameTests" */;
 			buildPhases = (
 				F9BE0100206A9E300088B25E /* Sources */,
 				F9BE0101206A9E300088B25E /* Frameworks */,
@@ -167,14 +204,14 @@
 			dependencies = (
 				F9BE0106206A9E300088B25E /* PBXTargetDependency */,
 			);
-			name = MyGamesTests;
+			name = SUPInGameTests;
 			productName = MyGamesTests;
-			productReference = F9BE0104206A9E300088B25E /* MyGamesTests.xctest */;
+			productReference = F9BE0104206A9E300088B25E /* SUPInGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F9BE010E206A9E300088B25E /* MyGamesUITests */ = {
+		F9BE010E206A9E300088B25E /* SUPInGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE011E206A9E300088B25E /* Build configuration list for PBXNativeTarget "MyGamesUITests" */;
+			buildConfigurationList = F9BE011E206A9E300088B25E /* Build configuration list for PBXNativeTarget "SUPInGameUITests" */;
 			buildPhases = (
 				F9BE010B206A9E300088B25E /* Sources */,
 				F9BE010C206A9E300088B25E /* Frameworks */,
@@ -185,9 +222,9 @@
 			dependencies = (
 				F9BE0111206A9E300088B25E /* PBXTargetDependency */,
 			);
-			name = MyGamesUITests;
+			name = SUPInGameUITests;
 			productName = MyGamesUITests;
-			productReference = F9BE010F206A9E300088B25E /* MyGamesUITests.xctest */;
+			productReference = F9BE010F206A9E300088B25E /* SUPInGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F9BE00E5206A9E300088B25E /* Build configuration list for PBXProject "MyGames" */;
+			buildConfigurationList = F9BE00E5206A9E300088B25E /* Build configuration list for PBXProject "SUPInGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9BE00E9206A9E300088B25E /* MyGames */,
-				F9BE0103206A9E300088B25E /* MyGamesTests */,
-				F9BE010E206A9E300088B25E /* MyGamesUITests */,
+				F9BE00E9206A9E300088B25E /* SUPInGame */,
+				F9BE0103206A9E300088B25E /* SUPInGameTests */,
+				F9BE010E206A9E300088B25E /* SUPInGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,11 +278,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A5A38D206AA4D200C8D735 /* bird.atlas in Resources */,
 				F9BE00F9206A9E300088B25E /* Main.storyboard in Resources */,
+				F9A5A38B206AA48D00C8D735 /* Images.xcassets in Resources */,
+				F9A5A387206AA2EC00C8D735 /* Flapira.sks in Resources */,
 				F9BE00F0206A9E300088B25E /* GameScene.sks in Resources */,
 				F9BE00FB206A9E300088B25E /* Assets.xcassets in Resources */,
 				F9BE00FE206A9E300088B25E /* LaunchScreen.storyboard in Resources */,
+				F9BE0125206A9F840088B25E /* PongScene.sks in Resources */,
 				F9BE00F2206A9E300088B25E /* Actions.sks in Resources */,
+				F9A5A38F206AA64200C8D735 /* audio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BE0127206A9F8A0088B25E /* PongScene.swift in Sources */,
 				F9BE00F4206A9E300088B25E /* GameScene.swift in Sources */,
 				F9BE00F6206A9E300088B25E /* GameViewController.swift in Sources */,
 				F9BE00EE206A9E300088B25E /* AppDelegate.swift in Sources */,
+				F9A5A389206AA31C00C8D735 /* Flapira.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +341,12 @@
 /* Begin PBXTargetDependency section */
 		F9BE0106206A9E300088B25E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F9BE00E9206A9E300088B25E /* MyGames */;
+			target = F9BE00E9206A9E300088B25E /* SUPInGame */;
 			targetProxy = F9BE0105206A9E300088B25E /* PBXContainerItemProxy */;
 		};
 		F9BE0111206A9E300088B25E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F9BE00E9206A9E300088B25E /* MyGames */;
+			target = F9BE00E9206A9E300088B25E /* SUPInGame */;
 			targetProxy = F9BE0110206A9E300088B25E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.goju.MyGamesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGames.app/MyGames";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUPInGame.app/SUPInGame";
 			};
 			name = Debug;
 		};
@@ -472,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.goju.MyGamesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGames.app/MyGames";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUPInGame.app/SUPInGame";
 			};
 			name = Release;
 		};
@@ -505,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9BE00E5206A9E300088B25E /* Build configuration list for PBXProject "MyGames" */ = {
+		F9BE00E5206A9E300088B25E /* Build configuration list for PBXProject "SUPInGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9BE0116206A9E300088B25E /* Debug */,
@@ -514,29 +558,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9BE0118206A9E300088B25E /* Build configuration list for PBXNativeTarget "MyGames" */ = {
+		F9BE0118206A9E300088B25E /* Build configuration list for PBXNativeTarget "SUPInGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9BE0119206A9E300088B25E /* Debug */,
 				F9BE011A206A9E300088B25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F9BE011B206A9E300088B25E /* Build configuration list for PBXNativeTarget "MyGamesTests" */ = {
+		F9BE011B206A9E300088B25E /* Build configuration list for PBXNativeTarget "SUPInGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9BE011C206A9E300088B25E /* Debug */,
 				F9BE011D206A9E300088B25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F9BE011E206A9E300088B25E /* Build configuration list for PBXNativeTarget "MyGamesUITests" */ = {
+		F9BE011E206A9E300088B25E /* Build configuration list for PBXNativeTarget "SUPInGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9BE011F206A9E300088B25E /* Debug */,
 				F9BE0120206A9E300088B25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

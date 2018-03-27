@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9BE00E9206A9E300088B25E"
-               BuildableName = "MyGames.app"
-               BlueprintName = "MyGames"
-               ReferencedContainer = "container:MyGames.xcodeproj">
+               BuildableName = "SUPInGame.app"
+               BlueprintName = "SUPInGame"
+               ReferencedContainer = "container:SUPInGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9BE0103206A9E300088B25E"
-               BuildableName = "MyGamesTests.xctest"
-               BlueprintName = "MyGamesTests"
-               ReferencedContainer = "container:MyGames.xcodeproj">
+               BuildableName = "SUPInGameTests.xctest"
+               BlueprintName = "SUPInGameTests"
+               ReferencedContainer = "container:SUPInGame.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9BE010E206A9E300088B25E"
-               BuildableName = "MyGamesUITests.xctest"
-               BlueprintName = "MyGamesUITests"
-               ReferencedContainer = "container:MyGames.xcodeproj">
+               BuildableName = "SUPInGameUITests.xctest"
+               BlueprintName = "SUPInGameUITests"
+               ReferencedContainer = "container:SUPInGame.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9BE00E9206A9E300088B25E"
-            BuildableName = "MyGames.app"
-            BlueprintName = "MyGames"
-            ReferencedContainer = "container:MyGames.xcodeproj">
+            BuildableName = "SUPInGame.app"
+            BlueprintName = "SUPInGame"
+            ReferencedContainer = "container:SUPInGame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9BE00E9206A9E300088B25E"
-            BuildableName = "MyGames.app"
-            BlueprintName = "MyGames"
-            ReferencedContainer = "container:MyGames.xcodeproj">
+            BuildableName = "SUPInGame.app"
+            BlueprintName = "SUPInGame"
+            ReferencedContainer = "container:SUPInGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9BE00E9206A9E300088B25E"
-            BuildableName = "MyGames.app"
-            BlueprintName = "MyGames"
-            ReferencedContainer = "container:MyGames.xcodeproj">
+            BuildableName = "SUPInGame.app"
+            BlueprintName = "SUPInGame"
+            ReferencedContainer = "container:SUPInGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
