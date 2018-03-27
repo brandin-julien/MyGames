@@ -6,20 +6,8 @@
 //  Copyright © 2018 julien brandin. All rights reserved.
 //
 
-
 import SpriteKit
 import GameplayKit
-
-/*
-class PongScene: SKScene {
-    
-    override func didMove(to view: SKView) {
-        print("ok")
-    }
-    
-}
- */
-
 
 class PongScene: SKScene {
     
@@ -34,14 +22,21 @@ class PongScene: SKScene {
     var bottom_score = SKLabelNode()
     var top_score = SKLabelNode()
     
-    override func didMove(to view: SKView) {        
+    var background = SKSpriteNode(imageNamed: "Space.jpg")
+
+    override func didMove(to view: SKView) {
+        
+        background.position = CGPoint(x: self.size.width*0, y: self.size.height*0)
+        background.zPosition = -1
+        self.addChild(background)
+        
         ball = self.childNode(withName: "ball") as! SKSpriteNode
         player_top = self.childNode(withName: "player_top") as! SKSpriteNode
         player_bottom = self.childNode(withName: "player_bottom") as! SKSpriteNode
         
         bottom_score = self.childNode(withName: "bottom_score") as! SKLabelNode
         top_score = self.childNode(withName: "top_score") as! SKLabelNode
-        
+                
         //ball.physicsBody?.applyImpulse( CGVector(dx: -30, dy: -30) )
         
         bottom_score.text = "\(0)"

@@ -14,6 +14,8 @@
 		F9A5A38F206AA64200C8D735 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A38E206AA64200C8D735 /* audio.mp3 */; };
 		F9A5A391206AB32800C8D735 /* Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A390206AB32800C8D735 /* Home.mp3 */; };
 		F9A5A395206AB48500C8D735 /* Gtek.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A394206AB48500C8D735 /* Gtek.ttf */; };
+		F9A5A39A206ABCB300C8D735 /* Space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A399206ABCB300C8D735 /* Space.jpg */; };
+		F9A5A39C206AC01400C8D735 /* Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A5A39B206AC01400C8D735 /* Home.jpg */; };
 		F9BE00EE206A9E300088B25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE00ED206A9E300088B25E /* AppDelegate.swift */; };
 		F9BE00F0206A9E300088B25E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00EF206A9E300088B25E /* GameScene.sks */; };
 		F9BE00F2206A9E300088B25E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE00F1206A9E300088B25E /* Actions.sks */; };
@@ -25,6 +27,10 @@
 		F9BE0114206A9E300088B25E /* MyGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0113206A9E300088B25E /* MyGamesUITests.swift */; };
 		F9BE0125206A9F840088B25E /* PongScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9BE0124206A9F840088B25E /* PongScene.sks */; };
 		F9BE0127206A9F8A0088B25E /* PongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE0126206A9F8A0088B25E /* PongScene.swift */; };
+		F9D56BDA206AC4E70077CE3F /* Spac3 tech.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BD9206AC4E70077CE3F /* Spac3 tech.ttf */; };
+		F9D56BDC206AC8F10077CE3F /* Virtual Rave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BDB206AC8F10077CE3F /* Virtual Rave.ttf */; };
+		F9D56BDE206ACA210077CE3F /* PROMETHEUS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BDD206ACA210077CE3F /* PROMETHEUS.ttf */; };
+		F9D56BE0206ACA2C0077CE3F /* The Rave Is In Your Pants.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BDF206ACA2C0077CE3F /* The Rave Is In Your Pants.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,8 @@
 		F9A5A38E206AA64200C8D735 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		F9A5A390206AB32800C8D735 /* Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Home.mp3; sourceTree = "<group>"; };
 		F9A5A394206AB48500C8D735 /* Gtek.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gtek.ttf; sourceTree = "<group>"; };
+		F9A5A399206ABCB300C8D735 /* Space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Space.jpg; sourceTree = "<group>"; };
+		F9A5A39B206AC01400C8D735 /* Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home.jpg; sourceTree = "<group>"; };
 		F9BE00EA206A9E300088B25E /* SUPInGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUPInGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE00ED206A9E300088B25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BE00EF206A9E300088B25E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +77,10 @@
 		F9BE0115206A9E300088B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE0124206A9F840088B25E /* PongScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PongScene.sks; sourceTree = "<group>"; };
 		F9BE0126206A9F8A0088B25E /* PongScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongScene.swift; sourceTree = "<group>"; };
+		F9D56BD9206AC4E70077CE3F /* Spac3 tech.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spac3 tech.ttf"; sourceTree = "<group>"; };
+		F9D56BDB206AC8F10077CE3F /* Virtual Rave.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Virtual Rave.ttf"; sourceTree = "<group>"; };
+		F9D56BDD206ACA210077CE3F /* PROMETHEUS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PROMETHEUS.ttf; sourceTree = "<group>"; };
+		F9D56BDF206ACA2C0077CE3F /* The Rave Is In Your Pants.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Rave Is In Your Pants.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,10 @@
 		F9A5A396206ABA5F00C8D735 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F9D56BDF206ACA2C0077CE3F /* The Rave Is In Your Pants.otf */,
+				F9D56BDD206ACA210077CE3F /* PROMETHEUS.ttf */,
+				F9D56BDB206AC8F10077CE3F /* Virtual Rave.ttf */,
+				F9D56BD9206AC4E70077CE3F /* Spac3 tech.ttf */,
 				F9A5A394206AB48500C8D735 /* Gtek.ttf */,
 			);
 			name = Fonts;
@@ -115,6 +131,7 @@
 		F9A5A398206ABA7C00C8D735 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F9A5A39B206AC01400C8D735 /* Home.jpg */,
 				F9BE00EF206A9E300088B25E /* GameScene.sks */,
 				F9BE00F3206A9E300088B25E /* GameScene.swift */,
 				F9BE00F5206A9E300088B25E /* GameViewController.swift */,
@@ -192,6 +209,7 @@
 		F9BE0123206A9F290088B25E /* Pong2 */ = {
 			isa = PBXGroup;
 			children = (
+				F9A5A399206ABCB300C8D735 /* Space.jpg */,
 				F9BE0126206A9F8A0088B25E /* PongScene.swift */,
 				F9BE0124206A9F840088B25E /* PongScene.sks */,
 			);
@@ -306,15 +324,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A5A38D206AA4D200C8D735 /* bird.atlas in Resources */,
+				F9D56BDC206AC8F10077CE3F /* Virtual Rave.ttf in Resources */,
 				F9BE00F9206A9E300088B25E /* Main.storyboard in Resources */,
+				F9A5A39C206AC01400C8D735 /* Home.jpg in Resources */,
 				F9A5A38B206AA48D00C8D735 /* Images.xcassets in Resources */,
 				F9A5A395206AB48500C8D735 /* Gtek.ttf in Resources */,
+				F9D56BDE206ACA210077CE3F /* PROMETHEUS.ttf in Resources */,
+				F9A5A39A206ABCB300C8D735 /* Space.jpg in Resources */,
 				F9A5A387206AA2EC00C8D735 /* Flapira.sks in Resources */,
 				F9BE00F0206A9E300088B25E /* GameScene.sks in Resources */,
+				F9D56BDA206AC4E70077CE3F /* Spac3 tech.ttf in Resources */,
 				F9BE00FE206A9E300088B25E /* LaunchScreen.storyboard in Resources */,
 				F9BE0125206A9F840088B25E /* PongScene.sks in Resources */,
 				F9BE00F2206A9E300088B25E /* Actions.sks in Resources */,
 				F9A5A38F206AA64200C8D735 /* audio.mp3 in Resources */,
+				F9D56BE0206ACA2C0077CE3F /* The Rave Is In Your Pants.otf in Resources */,
 				F9A5A391206AB32800C8D735 /* Home.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

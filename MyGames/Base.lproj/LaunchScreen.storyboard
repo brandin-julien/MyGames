@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gtek.ttf">
+            <string>GtekTechnology</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -16,12 +25,40 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sup'in game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajj-Qo-5TW">
+                                <rect key="frame" x="112" y="40" width="152" height="18"/>
+                                <fontDescription key="fontDescription" name="GtekTechnology" family="Gtek Technology" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a school project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5M-zn-quw">
+                                <rect key="frame" x="79.5" y="326" width="216" height="15.5"/>
+                                <fontDescription key="fontDescription" name="GtekTechnology" family="Gtek Technology" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by brandin julien" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gy9-8d-ftn">
+                                <rect key="frame" x="85.5" y="631.5" width="204" height="15.5"/>
+                                <fontDescription key="fontDescription" name="GtekTechnology" family="Gtek Technology" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gy9-8d-ftn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Knn-wo-71S"/>
+                            <constraint firstItem="z5M-zn-quw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RK4-qg-Pi6"/>
+                            <constraint firstItem="Ajj-Qo-5TW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WmY-xB-9cB"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Gy9-8d-ftn" secondAttribute="bottom" constant="20" id="Z57-1U-yde"/>
+                            <constraint firstItem="z5M-zn-quw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Zdk-QS-cH5"/>
+                            <constraint firstItem="Ajj-Qo-5TW" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="20" id="gMZ-4L-yV4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>

@@ -5,6 +5,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Gtek.ttf</string>
+		<string>Spac3 tech.ttf</string>
+		<string>Virtual Rave.ttf</string>
+		<string>PROMETHEUS.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

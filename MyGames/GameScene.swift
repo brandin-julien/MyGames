@@ -11,22 +11,31 @@ import GameplayKit
 
 class GameScene : SKScene{
     
-    let label1 = SKLabelNode(fontNamed: "Gtek Technology")
-    let label2 = SKLabelNode(fontNamed: "Gtek Technology")
+    let label1 = SKLabelNode(fontNamed: "PROMETHEUS")
+    let label2 = SKLabelNode(fontNamed: "PROMETHEUS")
     let sound = SKAction.playSoundFileNamed("Home.mp3", waitForCompletion: false)
-
+    var background = SKSpriteNode(imageNamed: "Home.jpg")
+    
     override func didMove(to view: SKView) {
         
         run(sound)
         
-        label1.text = "pong"
+        label1.text = "Pong"
         label1.fontSize = 50
+        label1.fontColor = UIColor.white
         label1.position = CGPoint(x: self.size.width*0, y: self.size.height*0.3)
-        
-        label2.text = "flapira"
+        label1.zPosition = 2
+
+        label2.text = "Flapira"
         label2.fontSize = 50
+        label2.fontColor = UIColor.white
         label2.position = CGPoint(x: self.size.width*0, y: self.size.height*0.4)
+        label2.zPosition = 2
         
+        background.position = CGPoint(x: self.size.width*0, y: self.size.height*0)
+        background.zPosition = 1
+        
+        self.addChild(background)
         self.addChild(label1)
         self.addChild(label2)
     }
@@ -56,8 +65,8 @@ class GameScene : SKScene{
                             
                             view.ignoresSiblingOrder = true
                             
-                            view.showsFPS = true
-                            view.showsNodeCount = true
+//                            view.showsFPS = true
+//                            view.showsNodeCount = true
                         }
                     }
                 }
