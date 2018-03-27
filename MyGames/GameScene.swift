@@ -9,16 +9,43 @@
 import SpriteKit
 import GameplayKit
 
+
+
 class GameScene : SKScene{
     
     let label1 = SKLabelNode(fontNamed: "PROMETHEUS")
     let label2 = SKLabelNode(fontNamed: "PROMETHEUS")
+    let projectText = SKLabelNode(fontNamed: "PROMETHEUS")
+    let createdText = SKLabelNode(fontNamed: "PROMETHEUS")
+    let byText = SKLabelNode(fontNamed: "PROMETHEUS")
+
     let sound = SKAction.playSoundFileNamed("Home.mp3", waitForCompletion: false)
     var background = SKSpriteNode(imageNamed: "Home.jpg")
     
     override func didMove(to view: SKView) {
         
         run(sound)
+ 
+        projectText.text = "A Game"
+        projectText.fontSize = 25
+        projectText.fontColor = UIColor.white
+        projectText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.78)
+        projectText.zPosition = 2
+        
+        createdText.text = "Created"
+        createdText.fontSize = 25
+        createdText.fontColor = UIColor.white
+        print(self.size.height)
+        createdText.position = CGPoint(x: self.size.width*0, y: self.size.height/2)
+        print(createdText.position)
+        createdText.zPosition = 2
+        
+        byText.text = "By JULIEN BRANDIN"
+        byText.fontSize = 25
+        byText.fontColor = UIColor.white
+        byText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.005)
+        print(byText.position)
+        byText.zPosition = 2
         
         label1.text = "Pong"
         label1.fontSize = 50
@@ -35,7 +62,10 @@ class GameScene : SKScene{
         background.position = CGPoint(x: self.size.width*0, y: self.size.height*0)
         background.zPosition = 1
         
-        self.addChild(background)
+        //self.addChild(background)
+        self.addChild(projectText)
+        self.addChild(createdText)
+        self.addChild(byText)
         self.addChild(label1)
         self.addChild(label2)
     }

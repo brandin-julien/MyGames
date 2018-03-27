@@ -144,7 +144,7 @@ class Flapira: SKScene, SKPhysicsContactDelegate{
         
         //Initialize label score
         score = 0
-        scoreLabelNode = SKLabelNode(fontNamed:"MarkerFelt-Wide")
+        scoreLabelNode = SKLabelNode(fontNamed:"PROMETHEUS")
         scoreLabelNode.position = CGPoint( x: self.frame.midX, y: 3 * self.frame.size.height / 4 )
         scoreLabelNode.zPosition = 100
         scoreLabelNode.text = String(score)
@@ -255,7 +255,16 @@ class Flapira: SKScene, SKPhysicsContactDelegate{
                 bird.run(  SKAction.rotate(byAngle: CGFloat(Double.pi) * CGFloat(bird.position.y) * 0.01, duration:1), completion:{self.bird.speed = 0 })
                 
                 flashScreen(color: SKColor(red: 1, green: 0, blue: 0, alpha: 1), canRestart: true)
-
+//                
+//                let changeSceneAction = SKAction.run(changeScene)
+//                let waitToChangeScene = SKAction.wait(forDuration: 1)
+//                let changeSceneSequence = SKAction.sequence([waitToChangeScene, changeSceneAction])
+//                self.run(changeSceneSequence)
+                
+                let sceneToMoveTo = GameOverScene(size: self.size)
+                sceneToMoveTo.scaleMode = self.scaleMode
+                let myTransition = SKTransition.fade(withDuration: 0.5)
+                self.view!.presentScene(sceneToMoveTo, transition: myTransition)
             }
         }
     }

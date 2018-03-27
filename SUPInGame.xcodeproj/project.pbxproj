@@ -31,6 +31,7 @@
 		F9D56BDC206AC8F10077CE3F /* Virtual Rave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BDB206AC8F10077CE3F /* Virtual Rave.ttf */; };
 		F9D56BDE206ACA210077CE3F /* PROMETHEUS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BDD206ACA210077CE3F /* PROMETHEUS.ttf */; };
 		F9D56BE0206ACA2C0077CE3F /* The Rave Is In Your Pants.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9D56BDF206ACA2C0077CE3F /* The Rave Is In Your Pants.otf */; };
+		F9D56BE2206AD12A0077CE3F /* GameOverFlapira.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D56BE1206AD12A0077CE3F /* GameOverFlapira.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		F9D56BDB206AC8F10077CE3F /* Virtual Rave.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Virtual Rave.ttf"; sourceTree = "<group>"; };
 		F9D56BDD206ACA210077CE3F /* PROMETHEUS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PROMETHEUS.ttf; sourceTree = "<group>"; };
 		F9D56BDF206ACA2C0077CE3F /* The Rave Is In Your Pants.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Rave Is In Your Pants.otf"; sourceTree = "<group>"; };
+		F9D56BE1206AD12A0077CE3F /* GameOverFlapira.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverFlapira.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				F9A5A386206AA2EC00C8D735 /* Flapira.sks */,
 				F9A5A38C206AA4D200C8D735 /* bird.atlas */,
 				F9A5A38A206AA48D00C8D735 /* Images.xcassets */,
+				F9D56BE1206AD12A0077CE3F /* GameOverFlapira.swift */,
 			);
 			name = Flapira;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BE0127206A9F8A0088B25E /* PongScene.swift in Sources */,
+				F9D56BE2206AD12A0077CE3F /* GameOverFlapira.swift in Sources */,
 				F9BE00F4206A9E300088B25E /* GameScene.swift in Sources */,
 				F9BE00F6206A9E300088B25E /* GameViewController.swift in Sources */,
 				F9BE00EE206A9E300088B25E /* AppDelegate.swift in Sources */,
