@@ -22,47 +22,55 @@ class GameScene : SKScene{
     let sound = SKAction.playSoundFileNamed("Home.mp3", waitForCompletion: false)
     var background = SKSpriteNode(imageNamed: "Home.jpg")
     
+    let negativeCGFloat : CGFloat = -1
+    
     override func didMove(to view: SKView) {
         
         run(sound)
  
         projectText.text = "A Game"
-        projectText.fontSize = 25
+        projectText.fontSize = 30
         projectText.fontColor = UIColor.white
-        projectText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.78)
+        projectText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.4)
         projectText.zPosition = 2
         
         createdText.text = "Created"
-        createdText.fontSize = 25
+        createdText.fontSize = 30
         createdText.fontColor = UIColor.white
         print(self.size.height)
-        createdText.position = CGPoint(x: self.size.width*0, y: self.size.height/2)
-        print(createdText.position)
+        createdText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.3)
         createdText.zPosition = 2
         
         byText.text = "By JULIEN BRANDIN"
-        byText.fontSize = 25
+        byText.fontSize = 30
         byText.fontColor = UIColor.white
-        byText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.005)
-        print(byText.position)
+        byText.position = CGPoint(x: self.size.width*0, y: self.size.height*0.2)
         byText.zPosition = 2
         
         label1.text = "Pong"
-        label1.fontSize = 50
+        label1.fontSize = 30
         label1.fontColor = UIColor.white
-        label1.position = CGPoint(x: self.size.width*0, y: self.size.height*0.3)
+//        label1.position = CGPoint(x: self.size.width*0, y: self.size.height*0.3)
+        label1.position = CGPoint(x: self.size.width*0, y: self.size.height*0.2*negativeCGFloat)
         label1.zPosition = 2
 
         label2.text = "Flapira"
-        label2.fontSize = 50
+        label2.fontSize = 30
         label2.fontColor = UIColor.white
-        label2.position = CGPoint(x: self.size.width*0, y: self.size.height*0.4)
+//        label2.position = CGPoint(x: self.size.width*0, y: self.size.height*0.4)
+        label2.position = CGPoint(x: self.size.width*0, y: self.size.height*0.3*negativeCGFloat)
         label2.zPosition = 2
         
         background.position = CGPoint(x: self.size.width*0, y: self.size.height*0)
         background.zPosition = 1
         
-        //self.addChild(background)
+        print("projectText \(projectText.position)")
+        print("createdText \(createdText.position)")
+        print("byText \(byText.position)")
+        print("label1 \(label1.position)")
+        print("label2 \(label2.position)")
+        
+        self.addChild(background)
         self.addChild(projectText)
         self.addChild(createdText)
         self.addChild(byText)
@@ -111,4 +119,3 @@ class GameScene : SKScene{
         }
     }
 }
- 

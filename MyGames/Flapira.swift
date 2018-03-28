@@ -35,6 +35,8 @@ class Flapira: SKScene, SKPhysicsContactDelegate{
         
         canRestart = false
         
+        defaults.set(0, forKey: "flapira.score")
+        
         // setup physics
         self.physicsWorld.gravity = CGVector( dx: 0.0, dy: -5.0 )
         self.physicsWorld.contactDelegate = self
@@ -239,6 +241,8 @@ class Flapira: SKScene, SKPhysicsContactDelegate{
                 scoreLabelNode.text = String(score)
                 run(coinSound)
                 
+                defaults.set(score, forKey: "flapira.score")
+                
                 //defaults.set(score, forKey: defaultsKeys.keyOne)
                 
                 
@@ -260,6 +264,8 @@ class Flapira: SKScene, SKPhysicsContactDelegate{
 //                let waitToChangeScene = SKAction.wait(forDuration: 1)
 //                let changeSceneSequence = SKAction.sequence([waitToChangeScene, changeSceneAction])
 //                self.run(changeSceneSequence)
+                
+                //defaults
                 
                 let sceneToMoveTo = GameOverScene(size: self.size)
                 sceneToMoveTo.scaleMode = self.scaleMode

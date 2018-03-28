@@ -13,7 +13,8 @@ class GameOverScene: SKScene{
     
     let restartLabel = SKLabelNode(fontNamed: "PROMETHEUS")
     let backLabel = SKLabelNode(fontNamed: "PROMETHEUS")
-    
+    let defaults = UserDefaults()
+
     override func didMove(to view: SKView) {
         let background = SKSpriteNode(imageNamed: "Home.jpg")
         background.position = CGPoint(x: self.size.width/2, y: self.size.height/2)
@@ -22,38 +23,45 @@ class GameOverScene: SKScene{
         
         let gameOverLabel = SKLabelNode(fontNamed: "PROMETHEUS")
         gameOverLabel.text = "Game Over"
-        gameOverLabel.fontSize = 25 // 200 AND REST 125
+        gameOverLabel.fontSize = 25
         gameOverLabel.fontColor = SKColor.white
         gameOverLabel.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.7)
         self.addChild(gameOverLabel)
         
+        let score = defaults.integer(forKey: "flapira.score")
+
         let scoreLabel = SKLabelNode(fontNamed: "PROMETHEUS")
-        scoreLabel.text = "Score: 0"
-        scoreLabel.fontSize = 25 // 125
+        scoreLabel.text = "Score: \(score)"
+        scoreLabel.fontSize = 25
         scoreLabel.fontColor = SKColor.white
         scoreLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.55)
         scoreLabel.zPosition = 1
         self.addChild(scoreLabel)
+
+        var bestScore = defaults.integer(forKey: "flapira.bestScore")
         
-        let defaults = UserDefaults()
+        if score > bestScore {
+            bestScore = score
+            defaults.set(bestScore, forKey: "flapira.bestScore")
+        }
         
-        let highScoreLabel = SKLabelNode(fontNamed: "PROMETHEUS")
-        highScoreLabel.text = "High Score: 0"
-        highScoreLabel.fontSize = 25 // 125
-        highScoreLabel.fontColor = SKColor.white
-        highScoreLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.45)
-        highScoreLabel.zPosition = 1
-        self.addChild(highScoreLabel)
+        let bestScoreLabel = SKLabelNode(fontNamed: "PROMETHEUS")
+        bestScoreLabel.text = "High Score: \(bestScore)"
+        bestScoreLabel.fontSize = 25
+        bestScoreLabel.fontColor = SKColor.white
+        bestScoreLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.45)
+        bestScoreLabel.zPosition = 1
+        self.addChild(bestScoreLabel)
         
         restartLabel.text = "Restart"
-        restartLabel.fontSize = 25 // 90
+        restartLabel.fontSize = 25
         restartLabel.fontColor = SKColor.white
         restartLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.3)
         restartLabel.zPosition = 1
         self.addChild(restartLabel)
 
         backLabel.text = "Back to home"
-        backLabel.fontSize = 25 // 90
+        backLabel.fontSize = 25
         backLabel.fontColor = SKColor.white
         backLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.2)
         backLabel.zPosition = 1

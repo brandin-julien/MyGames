@@ -28,6 +28,10 @@ class PongScene: SKScene {
     var lastY = 0
     var lastX = 0
     
+    var background = SKSpriteNode(imageNamed: "Space.jpg")
+
+    var gameStatus = false
+    
     override func didMove(to view: SKView) {
         ball = self.childNode(withName: "ball") as! SKSpriteNode
         player_top = self.childNode(withName: "player_top") as! SKSpriteNode
@@ -43,7 +47,6 @@ class PongScene: SKScene {
         
         //runBall()
         
-        
         let frameBody = SKPhysicsBody(edgeLoopFrom: self.frame)
         
         frameBody.friction = 0
@@ -52,6 +55,10 @@ class PongScene: SKScene {
         self.physicsBody = frameBody
         
         runTimer()
+        
+        background.position = CGPoint(x: self.size.width*0, y: self.size.height*0)
+        background.zPosition = -1
+        self.addChild(background)
         
         //        GADRewardBasedVideoAd.sharedInstance().delegate = self
         //        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),
@@ -68,6 +75,8 @@ class PongScene: SKScene {
             let location = touch.location(in: self)
             
             player_bottom.run( SKAction.moveTo(x: location.x , duration: 0.5 ) )
+            
+            gameStatus = true
             
         }
         
@@ -86,6 +95,10 @@ class PongScene: SKScene {
     }
     
     func runBall(){
+        
+        if !gameStatus {
+            return
+        }
         
         let flipX = arc4random_uniform(2) // 0 or 1
         let flipY = arc4random_uniform(2)
@@ -116,6 +129,10 @@ class PongScene: SKScene {
         
     }
     
+    func endOfGame(){
+        print("endOfGame")
+    }
+    
     func editScore(winner : String){
         
         if winner == "bottom" {
@@ -123,6 +140,10 @@ class PongScene: SKScene {
         }else if winner == "top" {
             top_score.text = "\(Int(top_score.text!)! + 1)"
         }
+        
+        gameStatus = false
+        
+        
         
         resetBall()
         
@@ -160,6 +181,8 @@ class PongScene: SKScene {
             runBall()
             resetCount = 0
         }
+        
+        // IF SCORE > 10 => WIN
         
         //print(ball.physicsBody?.velocity.dx)
         //print(ball.physicsBody?.velocity.dy)
